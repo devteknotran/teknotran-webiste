@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    image: teknotran-website:latest
+    container_name: teknotran-website
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
