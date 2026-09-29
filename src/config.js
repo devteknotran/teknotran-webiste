@@ -8,5 +8,5 @@ export const site = {
   // Leave empty to send visitors to the contact page instead.
   bookingUrl: '',
   // Form endpoint (e.g. https://formspree.io/f/xxxxxxx). Leave empty to show a preview notice.
-  formEndpoint: 'https://formspree.io/f/YOUR_ID',
+  formEndpoint: 'https://formspree.io/f/xoevylyl',
 }
