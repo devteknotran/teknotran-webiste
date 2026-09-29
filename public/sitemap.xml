@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://teknotran.com/</loc></url>
+  <url><loc>https://teknotran.com/services</loc></url>
+  <url><loc>https://teknotran.com/services/seamless-infrastructure</loc></url>
+  <url><loc>https://teknotran.com/services/infrastructure-automation</loc></url>
+  <url><loc>https://teknotran.com/services/deployment-observability</loc></url>
+  <url><loc>https://teknotran.com/services/audit-cost-optimisation</loc></url>
+  <url><loc>https://teknotran.com/services/reliability-scaling</loc></url>
+  <url><loc>https://teknotran.com/services/ai-infrastructure</loc></url>
+  <url><loc>https://teknotran.com/case-studies</loc></url>
+  <url><loc>https://teknotran.com/case-studies/aws-three-tier-terraform</loc></url>
+  <url><loc>https://teknotran.com/case-studies/gitops-kubernetes-observability</loc></url>
+  <url><loc>https://teknotran.com/case-studies/aws-cost-risk-review</loc></url>
+  <url><loc>https://teknotran.com/case-studies/multi-az-resilience</loc></url>
+  <url><loc>https://teknotran.com/case-studies/llm-inference-platform</loc></url>
+  <url><loc>https://teknotran.com/about</loc></url>
+  <url><loc>https://teknotran.com/d-worker</loc></url>
+  <url><loc>https://teknotran.com/training</loc></url>
+  <url><loc>https://teknotran.com/contact</loc></url>
+</urlset>

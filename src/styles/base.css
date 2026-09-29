@@ -1,0 +1,39 @@
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 88px; }
+body {
+  margin: 0; background: var(--white); color: var(--slate);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.65;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+img, svg { max-width: 100%; }
+h1, h2, h3, h4 { font-family: var(--font-display); color: var(--charcoal); margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+a { color: var(--blue); }
+strong { color: var(--charcoal); font-weight: 600; }
+code, .mono { font-family: var(--font-mono); font-size: .86em; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; border-radius: 4px; }
+::selection { background: var(--tint); color: var(--charcoal); }
+
+.container { max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); }
+.section { padding-block: var(--section); }
+.section.slim { padding-block: 48px; }
+.section.tinted { background: var(--mist); }
+
+.skip-link { position: absolute; left: -9999px; top: 8px; z-index: 100; background: var(--charcoal); color: #fff; padding: 10px 14px; border-radius: 6px; }
+.skip-link:focus { left: 8px; }
+
+.eyebrow { font-family: var(--font-label); font-weight: 700; text-transform: uppercase; letter-spacing: .22em; font-size: 14px; color: var(--blue); margin-bottom: 14px; }
+.eyebrow.on-dark { color: #9EC2FF; }
+
+/* Reveal: only content that starts below the fold, added by useReveal(). Visible without JS. */
+.rv { opacity: 0; transform: translateY(16px); }
+.rv-in { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
